@@ -27,7 +27,8 @@ int main () {
     const int width = 10;
     const int higth = 20;
 
-    vector<vector<int>> grid = {{0}};
+    vector<vector<int>> grid(higth, vector<int>(width, 0));
+
 
     grid[5][5] = 1;
     grid[5][6] = 1;
